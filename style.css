@@ -1,0 +1,658 @@
+
+/* _____________________BULK AND BODY OUTLINE_____________________ */
+
+
+body {
+   margin:0;
+   text-align: center;
+   font-weight:500;
+   color:#5a544e;
+}
+
+header{
+   background-image:url('dock.jpg');
+   background-position-x:center;
+   background-repeat:no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+
+.ig img{
+  width: 100%;
+  height: auto;
+  max-width: 30px;
+}
+
+p{
+  padding:25px;
+}
+
+
+
+/*_____________________LOGO AND INTERACTIVITY_____________________ */
+
+
+.logo {
+  min-height: 45vh;
+}
+
+
+.logo img{
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block; 
+  padding-top: 100px;
+ 
+
+}
+
+.logo img:hover{
+ transform:scale(1.1,1.1);
+ transition:0.1s;
+}
+
+
+
+/*_____________________ NAV'S: HEADER AND FOOTER CONTROL_____________________ */
+
+nav ul {
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align:center;
+}
+
+
+nav li{
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
+  padding:8px;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-size:17px;
+  
+}
+
+
+nav li  a{
+  text-decoration: none;
+  color:white;
+}
+
+nav a:hover{
+  color:burlywood;
+  font-weight:900;
+  transition: all 0.3s;
+}
+
+
+/* _____________________HOME PAGE_____________________ */
+
+.about {
+  display:flex;
+  gap:20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.about h1 {
+   color:#403232;
+   font-size:6.5rem;
+   font-family:Bebas Neue;
+   text-align:left;
+   padding-right:100px;
+   
+  
+}
+
+.about p {
+  color:#5a544e;
+  text-align:left;
+  max-width: 20rem;
+  padding-left:15px;
+  padding-right:100px;
+  text-wrap:balance;
+}
+
+
+.intro img{
+ max-width:100%;
+ height:auto;
+} 
+.intro img, .mission{
+  justify-content: space-evenly;
+} 
+
+.mission h1{
+  color:#403232;
+   font-size:7.5rem;
+   font-family:Bebas Neue;
+   justify-content:center;
+   margin: 0 auto;
+   text-align:center;
+}
+
+.mission p{
+  font-size:18px;
+  max-width:900px;
+  justify-content:center;
+  margin:0 auto;
+  text-wrap:balance;
+}
+
+.employee h1{
+    color: rgb(94, 39, 39);
+    letter-spacing:4px;
+    font-family: serif;
+    font-variant: small-caps;
+    padding:15px;
+} 
+
+
+
+.employee h2{
+   color:#403232;
+   font-size:7.5rem;
+   font-family:Bebas Neue;
+   justify-content:center;
+   margin: 0 auto;
+   text-align:center;
+}
+
+
+.profiles {
+ display: flex;
+ gap:30px;
+ max-width:900px;
+ margin: 0 auto;
+ padding:10px;
+}
+
+.profiles img{
+ width:100%;
+ max-width:200px;
+ 
+}
+.person{
+ text-align:center;
+}
+
+.person p{
+ font-size:0.9 rem;
+ max-width: 72 ch;
+ text-wrap:balance;
+ 
+}
+
+.person h3{
+ font-family:Bebas Neue;
+ font-size:30px;
+ letter-spacing:1px;
+ color:#403232;
+ font-weight:400px;
+}
+
+.fotorama{
+   display:flex;
+   height:500px;
+   width:100%; 
+   justify-content: center;
+   margin: 0 auto;  
+}
+
+.clubform {
+  background-color:whitesmoke;
+}
+.clubform h1{
+  color:#403232;
+  font-size:6.5rem;
+  font-family:Bebas Neue;
+}
+
+.clubform h2{
+  color: rgb(94, 39, 39);
+  letter-spacing:2px;
+  font-size: 30px
+
+}
+
+/*_____________________ MENU PAGE_____________________ */
+
+.menu{
+   margin: 0 auto;
+   color:#96AEAF;
+   display:flex;
+   justify-content: space-around;
+   font-size: 1.2rem;
+   font-variant: small-caps;
+   font-weight: 800;
+ }
+
+ .menutitle h1{
+  color:#403232;
+  font-size:7.5rem;
+  font-family:Bebas Neue;
+  justify-content:center;
+ }
+
+ .menutitle h2{
+  font-size:3rem;
+  font-family:Bebas Neue;
+  justify-content:center;
+ }
+
+ .menutitle h2 a{
+  color:burlywood;
+ }
+
+ .menutitle h2 a:hover{
+  color:#403232;
+ }
+
+ 
+ .menu ul{
+   list-style-type: none;
+ }
+ 
+ .menu li{
+   padding-bottom:20px;
+ }
+
+
+ .menu h2, .additions h2{
+  color:#403232;
+ }
+
+
+
+.additions{
+   margin: 0 auto;
+   color:#96AEAF;
+   display:flex;
+   justify-content: space-around;
+   font-size: 1.2rem;
+   font-variant: small-caps;
+   font-weight: 800;
+  
+}
+
+.additions ul{
+   list-style-type: none;
+ }
+ 
+ .additions li{
+   padding-bottom:20px;
+ }
+/* _____________________SEASONAL COFFEE MENU_____________________ */
+
+.seasonal h1{
+  color:#403232;
+  font-size:5.5rem;
+  font-family:Bebas Neue;
+  justify-content:center;
+ }
+
+ .seasonal h2{
+  color:#403232;
+  font-size:3rem;
+  font-family:Bebas Neue;
+  justify-content:center;
+ }
+
+ .seasonal p{
+  max-width:60rem;
+  font-family: serif;
+  color:#74675B;
+  padding:15px;
+  font-size:20px;
+  justify-content:center;
+  margin: 0 auto;
+  text-wrap:balance;
+ }
+
+
+
+/* _____________________ROASTS PAGE_____________________ */
+
+.roasts{
+  max-width: 1200px;
+  margin: 0 auto;
+  color:#96AEAF;
+  display:flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-variant: small-caps;
+  font-weight: 800;
+}
+
+.roasttitle h1{
+  color:#403232;
+  font-size:7.5rem;
+  font-family:Bebas Neue;
+  justify-content:center;
+
+}
+
+.roasts ul{
+  list-style-type: none;
+}
+
+.roasts li{
+  padding-bottom:20px;
+}
+
+.roastlinks {
+  display:flex;
+  justify-content: center;
+  
+}
+
+.roastlinks h2{
+  font-size:40px;
+}
+/* ___________________________________TASTE & FLAVOR PROFILES_________________________________________*/
+
+
+.methods{
+  padding:20px;
+}
+.methods h1{
+  color:#403232;
+  font-size:4.5rem;
+  font-family:Bebas Neue;
+}
+
+.methods p{
+  max-width:60rem;
+  font-family: serif;
+  color:#74675B;
+  padding:15px;
+  font-size:20px;
+  justify-content:center;
+  margin: 0 auto;
+  text-wrap:balance;
+}
+
+.wheel img{
+  width:100%;
+  height:auto;
+  max-width:900px;
+}
+
+
+/* ___________________________________IN HOUSE ROASTING_________________________________________*/
+
+.inhouseroasting{
+  padding:20px;
+}
+.inhouseroasting h1, h2{
+  color:#403232;
+  font-size:4.5rem;
+  font-family:Bebas Neue;
+}
+
+.inhouseroasting p{
+  max-width:60rem;
+  font-family: serif;
+  color:#74675B;
+  padding:15px;
+  font-size:20px;
+  justify-content:center;
+  margin: 0 auto;
+  text-wrap:balance;
+}
+
+
+/* ___________________________________IN HOUSE ROASTING_________________________________________*/
+
+.grinds{
+  padding:20px;
+}
+.grinds h1{
+  color:#403232;
+  font-size:5.5rem;
+  font-family:Bebas Neue;
+}
+
+.grinds h2{
+  max-width:60rem;
+  font-family: serif;
+  color:#74675B;
+  padding:15px;
+  font-size:30px;
+  justify-content:center;
+  margin: 0 auto;
+  text-wrap:balance;
+}
+
+.grinds h3{
+  max-width:60rem;
+  font-family: serif;
+  color:#74675B;
+  padding:15px;
+  font-size:25px;
+  justify-content:center;
+  margin: 0 auto;
+  text-wrap:balance;
+}
+
+
+/* ___________________________________MERCH_________________________________________*/
+
+.merch h1{
+  color:#403232;
+   font-size:6.5rem;
+   font-family:Bebas Neue;
+}
+
+/* _____________________ CONTACT PAGE __________________________ */
+
+
+.contactform h1{
+   color:#403232;
+   font-size:6.5rem;
+   font-family:Bebas Neue;
+}
+
+.contactform h2{
+  color: rgb(94, 39, 39);
+  letter-spacing:2px;
+  font-size:45px;
+}
+
+.contactform h3{
+  font-size: 30px;
+}
+
+.careers, .faq{
+  max-width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  padding:20px;
+  text-wrap:balance;
+  
+} 
+
+.careers h1, .faq h1{
+  color:#403232;
+  font-size:7.5rem;
+  font-family: serif;
+  justify-content:center;
+  font-variant: small-caps;
+  text-align:center;
+   max-width: 20rem;
+   padding-right:120px; 
+ }
+
+ .careers h2, .faq h2{
+  font-size:30px;
+} 
+
+ .careers h3{
+  font-size:40px;
+  font-family:Bebas Neue;
+ }
+
+ .careers h4{
+  font-variant:small-caps;
+  font-family:Bebas Neue;
+  font-size:40px;
+ }
+
+.faq ul{
+  list-style-type: none;
+  max-width:50rem;
+  min-width:15rem;
+  font-family: serif;
+  color:#74675B;
+  font-variant: small-caps;
+  font-size:18px;
+}
+
+ .careers ul{
+  list-style-type: none;
+  max-width:50rem;
+  min-width:15rem;
+  font-family: serif;
+  color:#74675B;
+  font-size:18px;
+} 
+
+
+.career li, .faq li{
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+
+
+/* _____________________CSS TYPOGRAPHY DETAILS & CONTROLS _____________________*/
+
+h1 {
+  font-family:Bebas Neue;
+  color: rgb(94, 39, 39);
+  padding:15px;
+}
+
+
+h2,h3 {
+font-family: serif;
+color:#74675B;
+font-variant: small-caps;
+padding:15px;
+}
+
+h4{
+ padding:15px;
+}
+
+
+h2 a{
+  text-decoration:none;
+  color:rgb(94, 39, 39);
+}
+
+h2 a:hover{
+  color:burlywood;
+   font-weight:900;
+   transition: all 0.3s;
+}
+
+h5 a{
+  text-decoration:none;
+  color:rgb(94, 39, 39);
+}
+
+h5 a:hover{
+   color:burlywood;
+   font-weight:900;
+   transition: all 0.3s;
+}
+
+
+.fotorama {
+   display:flex;
+   height:500px;
+   width:auto; 
+   /* max-width:960px; */
+   justify-content: center;
+   margin: 0 auto;
+}
+
+
+  
+/* _____________________MEDIA QUERY AT END OF CSS FOR MOBILE_____________________ */
+
+@media (max-width:1000px) {
+  .profiles {
+     flex-direction: column;
+  }
+
+   .about{
+     flex-direction:column;
+     justify-content:center;
+     text-align:center;
+     padding:auto;
+     margin: 0 auto;
+  } 
+
+  .additions, .menu, .roasts{
+  padding-right:40px;
+  }
+
+
+  .intro img, .menu, .roasts, .additions, .roastlinks{
+  flex-direction: column;
+  }
+
+
+
+  .about h1 {
+  padding-left:40px;
+  justify-content:center;
+  margin: 0 auto;
+
+  } 
+
+  .about p{
+padding:auto;
+justify-content:center;
+margin: 0 auto;
+  }
+
+  
+
+  .clubform h1, .menutitle h1, .seasonal h1, .roasttitle h1, .methods h1, .inhouseroasting h1, h2, .grinds h1, .merch h1, .contactform h1{
+    font-size:4rem;
+  }
+  
+  .faq h2{
+    font-size:30px;
+  }
+
+  .faq h1, .careers h1{
+    font-size:4rem;
+    padding-right:300px;
+  }
+
+
+  .fotorama{
+    height:200%;
+  }
+
+}
+
+
+/*____________________ resize home mobile banner ____________________________*/
+@media screen and (max-width:767px) {
+  .homepage #page section:first-child {
+      min-height: unset;
+      height: 60vh;
+  }
+}
